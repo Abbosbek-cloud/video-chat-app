@@ -1,0 +1,29 @@
+.homepage-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-container .input-container input {
+  display: block;
+  font-size: 24px;
+  padding: 10px 8px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.homepage-container .input-container input:focus {
+  outline: none;
+}
+
+.homepage-container .input-container button {
+  display: block;
+  font-size: 24px;
+  padding: 10px 8px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
